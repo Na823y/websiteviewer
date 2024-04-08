@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <script>
+            function go() {
+                var url = document.getElementById("url").value;
+                window.open(url,"_self");
+            }
+        </script>
+        <link rel="stylesheet" href="https://naochan-website-viewer.glitch.me/style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>web さいとびゅーあ</h1>
+            <h3>build-2024.03.22-bata</h3>
+        </header>
+        <br><br>
+        <div class="google-search">
+          <h3>
+            [簡易Google検索]
+          </h3>
+          <script async src="https://cse.google.com/cse.js?cx=55fb0d6b9690c44f1">
+          </script>
+          <div class="gcse-search"></div>
+        </div>
+        <div class="openurl">
+          <h3>
+            [URLを開く]
+          </h3>
+          <input type="text" id="url" placeholder="URLを入力">
+          <input type="button" onclick="go()" value="go→">
+        </div>
+        <br><br>
+        <div class="osusume">
+            <h3>超個人的なお勧めサイト ※→がついているものは、新しいタブで開きます</h3>
+            <a href="https://www3.nhk.or.jp" class="link_black"><h3>[NHK news web]</h3></a>
+            <a href="https://www.activetk.jp" target="_blank" class="link_black"><h3>[ActiveTK.jp]→　　</h3></a>
+            <a href="https://skikozou.glitch.me" class="link_black"><h3>[Skikozou の部屋]　　</h3></a>
+            <a href="https://copilot.microsoft.com" target="_blank" class="link_black"><h3>[copilot とか言うAIチャット。]→</h3><h5>検索とGPTを組み合わせていて本家と比べてかなり早い。microsoft製　　</h5></a>
+            <a href="https://www.google.com" target="_blank" class="link_black"><h3>[言うまでもないgoogle先生]→　　</h3></a>
+            <a href="https://naochan.glitch.me" class="link_black"><h3>[製作者のページ]</h3></a>
+        </div>
+      <footer class="foot">
+        <h2>
+          webさいとびゅーあ
+        <h2>
+        <h3>iframeで見れるwebサイトなら、履歴を残さず、制限なしに回覧可能。Google検索もできる。</h3>
+        <h3>
+          <button onclick="copy()">
+            webさいとびゅーあ client のURLをコピー
+          </button>  
+        </h3>
+        <small class="copylight">©2024 naochan83275</small>
+      </footer>
+    </body>
+</html>
